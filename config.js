@@ -1,4 +1,5 @@
-export const PORT = 5555;
+export const PORT = process.env.PORT || 5555;
+
 
 export const mongoDBURL = "mongodb+srv://abhirambookstore:abhirambookstoremern333@book-store-mern-by-abhi.n14rdfn.mongodb.net/abhirambookstore-collection?retryWrites=true&w=majority"
 
